@@ -10,4 +10,5 @@ async def root():
 
 @app.get("/hello/hahaha/{name}")
 async def say_hello(name: str):
+    print("Hello,I am dev1")
     return {"message": f"Hello {name}"}
